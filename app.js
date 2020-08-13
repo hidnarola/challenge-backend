@@ -26,7 +26,7 @@ app.post('/v1/api/addAuthor', Author.AddAuthor)
 
 app.put('/v1/api/updateauthors', Author.updateAuthor)
 
-// Book data
+// Book 
 
 const Book = require('./public/controller/Book/bookcontroller')
 
